@@ -1,8 +1,8 @@
 version: '2.1'
 
 services:
-  hhkaos.github.io:
-    image: hhkaos.github.io
+  chamba:
+    image: chamba
     build: .
     environment:
       NODE_ENV: production
